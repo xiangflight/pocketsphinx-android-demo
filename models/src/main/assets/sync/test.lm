@@ -1,0 +1,49 @@
+Language model created by QuickLM on Wed Apr 12 21:55:41 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 ENLARGE -0.2218
+-1.5563 FORWARD -0.2218
+-1.5563 NARROW -0.2218
+-1.5563 PLAY -0.2218
+-1.5563 RETURN -0.2218
+-1.5563 STOP -0.2218
+
+\2-grams:
+-1.0792 <s> ENLARGE 0.0000
+-1.0792 <s> FORWARD 0.0000
+-1.0792 <s> NARROW 0.0000
+-1.0792 <s> PLAY 0.0000
+-1.0792 <s> RETURN 0.0000
+-1.0792 <s> STOP 0.0000
+-0.3010 ENLARGE </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 NARROW </s> -0.3010
+-0.3010 PLAY </s> -0.3010
+-0.3010 RETURN </s> -0.3010
+-0.3010 STOP </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ENLARGE </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> NARROW </s>
+-0.3010 <s> PLAY </s>
+-0.3010 <s> RETURN </s>
+-0.3010 <s> STOP </s>
+
+\end\
