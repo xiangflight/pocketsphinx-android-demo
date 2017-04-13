@@ -15,10 +15,10 @@ dictionary files.
 
 ### In module `models`
 
-- add test.dic and test.lm into `src\main\assets\sync`
+- add file `test.dic` and `test.lm` into `src\main\assets\sync`
 
 ## Other
 
-### [original demo address](https://github.com/cmusphinx/pocketsphinx-android-demo)
+original demo address: https://github.com/cmusphinx/pocketsphinx-android-demo
 
 See for [details](http://cmusphinx.sourceforge.net/wiki/tutorialandroid)
